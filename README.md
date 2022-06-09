@@ -13,13 +13,13 @@
     Процесс с PID 1 является systemd
     vagrant@vagrant:~/test$ pstree -p
     systemd(1)─┬─VBoxService(819)─┬─{VBoxService}(820)
-           │                  ├─{VBoxService}(821)
-           │                  ├─{VBoxService}(822)
-           │                  ├─{VBoxService}(823)
-           │                  ├─{VBoxService}(824)
-           │                  ├─{VBoxService}(825)
-           │                  ├─{VBoxService}(826)
-           │                  └─{VBoxService}(827)
+               │                  ├─{VBoxService}(821)
+               │                  ├─{VBoxService}(822)
+               │                  ├─{VBoxService}(823)
+               │                  ├─{VBoxService}(824)
+               │                  ├─{VBoxService}(825)
+               │                  ├─{VBoxService}(826)
+               │                  └─{VBoxService}(827)
 
 ## 4 Как будет выглядеть команда, которая перенаправит вывод stderr ls на другую сессию терминала?
 
